@@ -1,0 +1,73 @@
+{
+  "bookmarkListCollection": [
+    {
+      "id": "01",
+      "title": "HTML Learning Resources",
+      "bookmarks": [
+        {
+          "id": "01",
+          "title": "HTML Tutorial - W3Schools",
+          "link": "https://www.w3schools.com/html/"
+        },
+        {
+          "id": "02",
+          "title": "Learn HTML | Codecademy",
+          "link": "https://www.codecademy.com/learn/learn-html"
+        },
+        {
+          "id": "03",
+          "title": "HTML Fundamentals | SoloLearn: Learn to code for FREE!",
+          "link": "https://www.sololearn.com/Course/HTML/"
+        },
+        {
+          "id": "e26732ac-2ce4-4883-9b4c-77c58e6752b8"
+        },
+        {
+          "id": "ecd7553a-5267-4a2b-9112-e387d695ece3"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "CSS Learning Resources",
+      "bookmarks": [
+        {
+          "id": "01",
+          "title": "CSS Tutorial - W3Schools",
+          "link": "https://www.w3schools.com/css/"
+        },
+        {
+          "id": "02",
+          "title": "Learn CSS | Codecademy",
+          "link": "https://www.codecademy.com/learn/learn-css"
+        },
+        {
+          "id": "03",
+          "title": "CSS Tutorial",
+          "link": "https://www.csstutorial.net/"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "JavaScript Learning Resources",
+      "bookmarks": [
+        {
+          "id": "01",
+          "title": "JavaScript Tutorial - W3Schools",
+          "link": "https://www.w3schools.com/js/"
+        },
+        {
+          "id": "02",
+          "title": "The Modern Javascript Tutorial",
+          "link": "https://javascript.info/"
+        },
+        {
+          "id": "03",
+          "title": "Learn JavaScript with Zell",
+          "link": "https://learnjavascript.today/"
+        }
+      ]
+    }
+  ]
+}
