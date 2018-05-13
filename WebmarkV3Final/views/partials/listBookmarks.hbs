@@ -1,0 +1,23 @@
+<table class="ui table">
+  <thead>
+    <tr>
+      <th>Bookmark</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each bookmarkList.bookmarks}}
+      <tr>
+        <td>
+          {{title}}
+        </td>
+        <td>
+          <a href= "{{link}}" target="_blank">{{link}}</a>
+        </td>
+      </tr>
+    <td>
+      <a href="/bookmarkList/{{../bookmarkList.id}}/deletebookmark/{{id}}" class="ui icon button"><i class="icon trash"></i></a>
+    </td>
+      {{/each}}
+  </tbody>
+</table>

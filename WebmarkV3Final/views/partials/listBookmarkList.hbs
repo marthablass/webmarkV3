@@ -1,0 +1,48 @@
+
+
+{{#each bookmarks}}
+  <section class="ui segment">
+    <h2 class="ui header">
+      {{title}}
+      <h5>Total of Bookmarks: 
+      
+      <script src="array.js"></script>
+      
+      </h5>
+
+    <section class="ui raised segment">
+    <h5 class="ui header">
+      Pictures:
+    </h5>
+    {{#each album.photos}}
+      <img src="{{img}}">
+    {{/each}}
+    </section>
+      
+    
+    </h2>
+   
+    <a href="/bookmarkList/{{id}}" class="ui icon button">
+      <i class="icon folder open"></i>
+    </a>
+    <a href="/bookmarkDB/deleteBookmarkList/{{id}}" class="ui icon button">
+      <i class="icon trash"></i>
+    </a>
+    
+    <section class="ui raised segment">
+    <div class="ui small dividing header"> Picture Upload </div>
+    <section class="ui raised form segment">
+      <form action="/bookmarkDB/uploadpicture" method="post" enctype="multipart/form-data">
+        <div class="field">
+            <input type="file" name="picture">  </input>
+          </div>
+        <button class="ui mini blue submit button"> Upload </button>
+      </form>
+    </section>
+  </section>
+    
+    
+  </section>
+{{/each}}
+  
+ 
